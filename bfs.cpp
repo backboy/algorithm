@@ -37,15 +37,21 @@ void bfs(int s)
     distance[s]=0;
     parent[s]=-1;
     enqueue(s);
-    printf("%d ",s);
+    //printf("%d ",s);
     while(qhead!=qtail)
     {
         int x=dequeue();
-        for(i=0; i<N; i++)if(graph[x][i]==1 && color[i]==white){printf("%d ",i);color[i]=gray;enqueue(i);parent[i]=x;distance[i]=distance[x]+1;}
+        for(i=0; i<N; i++)if(graph[x][i]==1 && color[i]==white){/*printf("%d ",i);*/color[i]=gray;enqueue(i);parent[i]=x;distance[i]=distance[x]+1;}
         color[x]=black;
 
     }
 
+}
+void print_path(int s,int v){
+    if(s==v){printf("%d ",s);return;}
+    else if(parent[v]==-1){printf("no path from %d to %d",s,v);return;}
+    else print_path(s,parent[v]);
+    printf("%d ",v);
 }
 int bfs_main()
 {
@@ -54,7 +60,9 @@ int bfs_main()
     int i,j;
     for(i=0; i<N; i++)for(j=0; j<N; j++)fscanf(fin,"%d",&graph[i][j]);
     qhead=qtail=0;
-    bfs(0);
+    int s=0;
+    bfs(s);
+    for(i=0;i<N;i++){printf("%d->",i);print_path(s,i);printf("\n");}
     getch();
     return 0;
 }
