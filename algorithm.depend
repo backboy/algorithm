@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1428988917 source:d:\acm\algorithm\main.cpp
+	<iostream>
+	<bfs.h>
+
+1428988832 d:\acm\algorithm\bfs.h
+
+1428993341 source:d:\acm\algorithm\bfs.cpp
+	"bfs.h"
+	"stdio.h"
+	"conio.h"
+
