@@ -1,8 +1,10 @@
 # depslib dependency file v1.0
-1428998931 source:d:\acm\algorithm\main.cpp
+1429330332 source:d:\acm\algorithm\main.cpp
 	<iostream>
 	<bfs.h>
 	<dfs.h>
+	<topological_sort.h>
+	<strongly_connected_component.h>
 
 1428988832 d:\acm\algorithm\bfs.h
 
@@ -11,10 +13,24 @@
 	"stdio.h"
 	"conio.h"
 
-1428998975 source:d:\acm\algorithm\dfs.cpp
+1429330248 source:d:\acm\algorithm\dfs.cpp
 	"dfs.h"
 	"stdio.h"
 	"conio.h"
 
-1428998887 d:\acm\algorithm\dfs.h
+1429020020 d:\acm\algorithm\dfs.h
+
+1429328717 d:\acm\algorithm\topological_sort.h
+
+1429329528 source:d:\acm\algorithm\topological_sort.cpp
+	"topological_sort.h"
+	"stdio.h"
+	"conio.h"
+
+1429330286 d:\acm\algorithm\strongly_connected_component.h
+
+1429335634 source:d:\acm\algorithm\strongly_connected_component.cpp
+	"strongly_connected_component.h"
+	"stdio.h"
+	"conio.h"
 

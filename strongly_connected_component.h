@@ -1,0 +1,7 @@
+#ifndef STRONGLY_CONNECTED_COMPONENT_H
+#define STRONGLY_CONNECTED_COMPONENT_H
+
+
+int strongly_connected_component();
+
+#endif // STRONGLY_CONNECTED_COMPONENT_H

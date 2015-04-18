@@ -2,13 +2,6 @@
 #define DFS_H
 
 
-class dfs
-{
-    public:
-        dfs();
-        virtual ~dfs();
-    protected:
-    private:
-};
+int dfs_main();
 
 #endif // DFS_H
