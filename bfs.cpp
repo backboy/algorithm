@@ -1,47 +1,37 @@
 #include "bfs.h"
-#include "stdio.h"
+#include "bits/stdc++.h"
 #include "conio.h"
-
+#define MAX_SIZE 10
+#define infinite_distance 9999
+using namespace std;
 static int N;
-static int graph[10][10];
-static int bfs_queue[10];
-static int color[10];
-static int distance[10];
-static int parent[10];
+static int graph[MAX_SIZE][MAX_SIZE];
+static queue<int> bfs_queue;
+static int color[MAX_SIZE];
+static int bfs_distance[MAX_SIZE];
+static int parent[MAX_SIZE];
 static int white=0,gray=1,black=2;
-static int infinite_distance=9999;
 static int qhead,qtail;
 
-void enqueue(int x)
-{
-    bfs_queue[qtail]=x;
-    if(qtail==N-1)qtail=0;
-    else qtail+=1;
-}
-int dequeue()
-{
-
-    int x=bfs_queue[qhead];
-    if(qhead==N-1)qhead=0;
-    else qhead+=1;
-    return x;
 
 
-}
+
 void bfs(int s)
 {
 
     int i;
-    for(i=0; i<N; i++)if(i!=s){color[i]=white;distance[i]=infinite_distance;parent[i]=-1;}
+    for(i=0; i<N; i++)if(i!=s){color[i]=white;bfs_distance[i]=infinite_distance;parent[i]=-1;}
     color[s]=gray;
-    distance[s]=0;
+    bfs_distance[s]=0;
     parent[s]=-1;
-    enqueue(s);
+    bfs_queue.push(s);
+    //enqueue(s);
     //printf("%d ",s);
-    while(qhead!=qtail)
+    while(!bfs_queue.empty())
     {
-        int x=dequeue();
-        for(i=0; i<N; i++)if(graph[x][i]==1 && color[i]==white){/*printf("%d ",i);*/color[i]=gray;enqueue(i);parent[i]=x;distance[i]=distance[x]+1;}
+        int x=bfs_queue.front();
+        bfs_queue.pop();
+        for(i=0; i<N; i++)if(graph[x][i]==1 && color[i]==white){color[i]=gray;bfs_queue.push(i);parent[i]=x;bfs_distance[i]=bfs_distance[x]+1;}
         color[x]=black;
 
     }
@@ -59,7 +49,7 @@ int bfs_main()
     fscanf(fin,"%d",&N);
     int i,j;
     for(i=0; i<N; i++)for(j=0; j<N; j++)fscanf(fin,"%d",&graph[i][j]);
-    qhead=qtail=0;
+    //qhead=qtail=0;
     int s=0;
     bfs(s);
     for(i=0;i<N;i++){printf("%d->",i);print_path(s,i);printf("\n");}

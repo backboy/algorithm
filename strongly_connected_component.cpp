@@ -123,7 +123,6 @@ int strongly_connected_component()
     int i,j;
     for(i=0; i<N; i++)for(j=0; j<N; j++)fscanf(fin,"%d",&graph[i][j]);
     dfs();
-
     graph_transpose();
     dfs_t();
     getch();

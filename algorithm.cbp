@@ -34,9 +34,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="basic_geomatric_operation.cpp" />
+		<Unit filename="basic_geomatric_operation.h" />
+		<Unit filename="bellman_ford.cpp" />
+		<Unit filename="bellman_ford.h" />
+		<Unit filename="bellman_ford.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="bfs.cpp" />
 		<Unit filename="bfs.h" />
 		<Unit filename="bfs.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="computational_geometry.note">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="dfs.cpp" />
@@ -44,7 +54,67 @@
 		<Unit filename="dfs.in">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="dijkstras.cpp" />
+		<Unit filename="dijkstras.h" />
+		<Unit filename="dijkstras.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="euclid.cpp" />
+		<Unit filename="euclid.h" />
+		<Unit filename="floyd_warshall.cpp" />
+		<Unit filename="floyd_warshall.h" />
+		<Unit filename="floyd_warshall.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ford_fulkerson.cpp" />
+		<Unit filename="ford_fulkerson.h" />
+		<Unit filename="ford_fulkerson.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="graham_scan.cpp" />
+		<Unit filename="graham_scan.h" />
+		<Unit filename="graham_scan.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="kmp.cpp" />
+		<Unit filename="kmp.h" />
+		<Unit filename="kmp.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
+		<Unit filename="maximum_bipartite_matching.cpp" />
+		<Unit filename="maximum_bipartite_matching.h" />
+		<Unit filename="maximum_bipartite_matching.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="maximum_subarray_dividenconquer.cpp" />
+		<Unit filename="maximum_subarray_dividenconquer.h" />
+		<Unit filename="maximum_subarray_dividenconquer.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="minimum_cut.cpp" />
+		<Unit filename="minimum_cut.h" />
+		<Unit filename="prime_factor.cpp" />
+		<Unit filename="prime_factor.h" />
+		<Unit filename="prims.cpp" />
+		<Unit filename="prims.h" />
+		<Unit filename="prims.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="quick_sort.cpp" />
+		<Unit filename="quick_sort.h" />
+		<Unit filename="strongly_connected_component.cpp" />
+		<Unit filename="strongly_connected_component.h" />
+		<Unit filename="strongly_connected_component.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="topological_sort.cpp" />
+		<Unit filename="topological_sort.h" />
+		<Unit filename="topological_sort.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="two_line_intersect.cpp" />
+		<Unit filename="two_line_intersect.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
