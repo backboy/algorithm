@@ -27,7 +27,6 @@ void prims(int s){
     int i,j;
     FFOR(i,0,N){mst_status[i]=false;parent[i]=-1;key_value[i]=INFINITE;}
     parent[s]=-1;
-    mst_status[s]=true;
     key_value[s]=0;
     FFOR(i,0,N-1){
         int u=find_min_key();

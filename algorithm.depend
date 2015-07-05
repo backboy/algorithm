@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1434176790 source:d:\acm\algorithm\main.cpp
+1436072501 source:d:\acm\algorithm\main.cpp
 	<iostream>
 	<bfs.h>
 	<dfs.h>
@@ -19,12 +19,16 @@
 	<two_line_intersect.h>
 	<graham_scan.h>
 	<euclid.h>
+	<string_match_w_suffix_array.h>
+	<my_binary_search.h>
+	<lcp_w_trie.h>
 
 1428988832 d:\acm\algorithm\bfs.h
 
-1432456102 source:d:\acm\algorithm\bfs.cpp
+1434461562 source:d:\acm\algorithm\bfs.cpp
 	"bfs.h"
-	"bits/stdc++.h"
+	<stdio.h>
+	<queue>
 	"conio.h"
 
 1429330248 source:d:\acm\algorithm\dfs.cpp
@@ -55,16 +59,22 @@
 	"stdio.h"
 	"conio.h"
 
-1431782598 source:d:\acm\algorithm\bellman_ford.cpp
+1435391732 source:d:\acm\algorithm\bellman_ford.cpp
 	"bellman_ford.h"
-	<bits/stdc++.h>
+	<stdio.h>
 	<conio.h>
+	<stdio.h>
+	<algorithm>
+	<map>
+	<stack>
+	<string>
+	<iostream>
 
 1429939874 d:\acm\algorithm\bellman_ford.h
 
 1429939911 d:\acm\algorithm\prims.h
 
-1430188763 source:d:\acm\algorithm\prims.cpp
+1434816716 source:d:\acm\algorithm\prims.cpp
 	"prims.h"
 	<stdio.h>
 	<conio.h>
@@ -78,9 +88,9 @@
 
 1430191827 d:\acm\algorithm\dijkstras.h
 
-1431782620 source:d:\acm\algorithm\dijkstras.cpp
+1435382215 source:d:\acm\algorithm\dijkstras.cpp
 	"dijkstras.h"
-	<bits/stdc++.h>
+	<stdio.h>
 	"conio.h"
 
 1431236422 d:\acm\algorithm\floyd_warshall.h
@@ -100,15 +110,19 @@
 
 1432404962 d:\acm\algorithm\prime_factor.h
 
-1432405524 source:d:\acm\algorithm\prime_factor.cpp
+1435413703 source:d:\acm\algorithm\prime_factor.cpp
 	"prime_factor.h"
-	<bits/stdc++.h>
+	<stdio.h>
 	<conio.h>
+	<math.h>
 
-1432458253 source:d:\acm\algorithm\ford_fulkerson.cpp
+1434461770 source:d:\acm\algorithm\ford_fulkerson.cpp
 	"ford_fulkerson.h"
-	<bits/stdc++.h>
+	<stdio.h>
 	<conio.h>
+	<string.h>
+	<climits>
+	<queue>
 
 1432455795 d:\acm\algorithm\ford_fulkerson.h
 
@@ -116,15 +130,19 @@
 
 1432998908 d:\acm\algorithm\maximum_bipartite_matching.h
 
-1432486213 source:d:\acm\algorithm\minimum_cut.cpp
+1434461864 source:d:\acm\algorithm\minimum_cut.cpp
 	"minimum_cut.h"
-	<bits/stdc++.h>
+	<stdio.h>
 	<conio.h>
+	<string.h>
+	<queue>
+	<climits>
 
-1433008583 source:d:\acm\algorithm\maximum_bipartite_matching.cpp
+1434461807 source:d:\acm\algorithm\maximum_bipartite_matching.cpp
 	"maximum_bipartite_matching.h"
-	<bits/stdc++.h>
+	<stdio.h>
 	<conio.h>
+	<string.h>
 
 1433311935 source:d:\acm\algorithm\basic_geomatric_operation.cpp
 	"basic_geomatric_operation.h"
@@ -133,10 +151,12 @@
 
 1433338480 d:\acm\algorithm\two_line_intersect.h
 
-1433596941 source:d:\acm\algorithm\two_line_intersect.cpp
+1434462475 source:d:\acm\algorithm\two_line_intersect.cpp
 	"two_line_intersect.h"
-	<bits/stdc++.h>
+	<stdio.h>
 	<conio.h>
+	<algorithm>
+	<iostream>
 
 1433602308 d:\acm\algorithm\graham_scan.h
 
@@ -148,10 +168,46 @@
 	<algorithm>
 	<stack>
 
-1434178304 source:d:\acm\algorithm\euclid.cpp
+1434178623 source:d:\acm\algorithm\euclid.cpp
 	"euclid.h"
 	<stdio.h>
 	<conio.h>
 
 1434176686 d:\acm\algorithm\euclid.h
+
+1436017555 source:d:\acm\algorithm\suffix_array.cpp
+	"suffix_array.h"
+	<stdio.h>
+	<conio.h>
+	<iostream>
+
+1436017119 d:\acm\algorithm\suffix_array.h
+
+1436018612 d:\acm\algorithm\string_match_w_suffix_array.h
+
+1436022235 source:d:\acm\algorithm\string_match_w_suffix_array.cpp
+	"string_match_w_suffix_array.h"
+	<stdio.h>
+	<conio.h>
+	<iostream>
+	<string>
+	<cstring>
+	<algorithm>
+
+1436020212 d:\acm\algorithm\my_binary_search.h
+
+1436021004 source:d:\acm\algorithm\my_binary_search.cpp
+	"my_binary_search.h"
+	<stdio.h>
+	<conio.h>
+	<iostream>
+
+1436072447 d:\acm\algorithm\lcp_w_trie.h
+
+1436104307 source:d:\acm\algorithm\lcp_w_trie.cpp
+	"lcp_w_trie.h"
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<iostream>
 

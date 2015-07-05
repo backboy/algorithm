@@ -1,6 +1,9 @@
 #include "minimum_cut.h"
-#include <bits/stdc++.h>
+#include <stdio.h>
 #include <conio.h>
+#include <string.h>
+#include <queue>
+#include <climits>
 #define MAX_SIZE 10
 #define FFOR(i,a,b) for(i=a;i<b;i++)
 static int graph[MAX_SIZE][MAX_SIZE];

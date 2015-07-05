@@ -1,6 +1,7 @@
 #include "maximum_bipartite_matching.h"
-#include <bits/stdc++.h>
+#include <stdio.h>
 #include <conio.h>
+#include <string.h>
 #define FFOR(i,a,b) for(i=a;i<b;i++)
 #define MAX_SIZE 10
 // N= applicants

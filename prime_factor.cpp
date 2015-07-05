@@ -1,6 +1,7 @@
 #include "prime_factor.h"
-#include <bits/stdc++.h>
+#include <stdio.h>
 #include <conio.h>
+#include <math.h>
 void primeFactors(long long n)
 {
     // Print the number of 2s that divide n
@@ -33,3 +34,7 @@ int prime_factor_main(){
     return 0;
 
 }
+/*
+We begin by writing the number as a product of prime factors: n = paqbrc...
+then the number of divisors, d(n) = (a+1)(b+1)(c+1)...
+*/

@@ -81,6 +81,8 @@
 		<Unit filename="kmp.in">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="lcp_w_trie.cpp" />
+		<Unit filename="lcp_w_trie.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="maximum_bipartite_matching.cpp" />
 		<Unit filename="maximum_bipartite_matching.h" />
@@ -94,6 +96,8 @@
 		</Unit>
 		<Unit filename="minimum_cut.cpp" />
 		<Unit filename="minimum_cut.h" />
+		<Unit filename="my_binary_search.cpp" />
+		<Unit filename="my_binary_search.h" />
 		<Unit filename="prime_factor.cpp" />
 		<Unit filename="prime_factor.h" />
 		<Unit filename="prims.cpp" />
@@ -103,6 +107,14 @@
 		</Unit>
 		<Unit filename="quick_sort.cpp" />
 		<Unit filename="quick_sort.h" />
+		<Unit filename="string.doc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="string_match_w_suffix_array.cpp" />
+		<Unit filename="string_match_w_suffix_array.h" />
+		<Unit filename="string_match_w_suffix_array.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="strongly_connected_component.cpp" />
 		<Unit filename="strongly_connected_component.h" />
 		<Unit filename="strongly_connected_component.in">

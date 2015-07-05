@@ -17,6 +17,9 @@
 #include <two_line_intersect.h>
 #include <graham_scan.h>
 #include <euclid.h>
+#include <string_match_w_suffix_array.h>
+#include <my_binary_search.h>
+#include <lcp_w_trie.h>
 int main()
 {
     //topological_sort_main();
@@ -35,6 +38,9 @@ int main()
     // maximum_bipartite_matching_main();
     //two_line_intersect_main();
     //graham_scan_main();
-    euclid_main();
+    //euclid_main();
+    //string_match_w_suffix_array_main();
+    //my_binary_search_main();
+    lcp_w_trie_main();
     return 0;
 }

@@ -1,5 +1,6 @@
 #include "bfs.h"
-#include "bits/stdc++.h"
+#include <stdio.h>
+#include <queue>
 #include "conio.h"
 #define MAX_SIZE 10
 #define infinite_distance 9999

@@ -1,5 +1,5 @@
 #include "dijkstras.h"
-#include <bits/stdc++.h>
+#include <stdio.h>
 #include "conio.h"
 #define INFINITE 10e5
 #define FFOR(i,a,b) for(i=a;i<b;i++)
@@ -21,6 +21,20 @@ int print_solution(){
    int i;
    FFOR(i,0,N)printf("%d \t\t %d\n", i, distance[i]);
 }
+void print_dijkstras(int s,int t){
+    
+    /*while(s!=t){
+            path.push(t);
+            t=parent[t];
+    }
+    path.push(s);
+    while(!path.empty()){
+        int x=path.top();
+        printf("%d-",x+1);
+        path.pop();
+    }
+    printf("\n");*/
+}
 void dijkstras(int s){
 
     int i,j;
@@ -31,7 +45,7 @@ void dijkstras(int s){
         spt_status[u]=true;
         FFOR(j,0,N){
 
-            if(spt_status[j]==false && graph[u][j]!=0 &&distance[j]>(distance[u]+graph[u][j])){
+            if(spt_status[j]==false && graph[u][j]!=0 && distance[u]!=INFINITE &&distance[j]>(distance[u]+graph[u][j])){
                 distance[j]=distance[u]+graph[u][j];
             }
 

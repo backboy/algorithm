@@ -1,6 +1,8 @@
 #include "two_line_intersect.h"
-#include <bits/stdc++.h>
+#include <stdio.h>
 #include <conio.h>
+#include <algorithm>
+#include <iostream>
 using namespace std;
 struct Point
 {
